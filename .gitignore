@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# C++ 编译产物
+*.o
+*.a
+*.so
+*.out
+compile_commands.json
+
+# colcon / ROS2 构建目录
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
